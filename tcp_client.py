@@ -1,8 +1,8 @@
 import  socket
 
 
-target_host = '0.0.0.0'
-target_port = 9999
+target_host = '192.168.122.164'
+target_port = 5555
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM) #AF_INET - IP4 адрес, SOCK_STREAM - TCP
 client.connect((target_host, target_port))

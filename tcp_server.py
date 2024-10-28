@@ -2,8 +2,8 @@ import socket
 import threading
 
 
-IP = '0.0.0.0'
-PORT = 9999
+IP = '192.168.122.164'
+PORT = 5555
 
 
 def main():
